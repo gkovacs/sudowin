@@ -1,5 +1,5 @@
 if ($args.Length -eq 0) {
-  echo "need argument"
+  Start-Process powershell -Verb runAs
 } elseif ($args.Length -eq 1) {
   if ((get-command $args[0]).path.length -eq 0) { # not a command, perhaps a builtin
     Start-Process powershell -Verb runAs -ArgumentList $args
