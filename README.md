@@ -18,7 +18,7 @@ Can be used similar to the sudo command in linux, ex:
     sudowin rm c:\windows\system32\foobar.txt
     sudowin subl c:\windows\system32\foobar.txt
 
-Note that the subl and bash commands assume you have them in your path. If you don't, see [here](https://github.com/gkovacs/add_utilities_to_windows_path).
+Note that the subl and bash commands assume you have them in your path. If you don't, see [here](https://github.com/gkovacs/add_utils_to_windows_path).
 
 Note that pipes and redirection are not currently supported
 
